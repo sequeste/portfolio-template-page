@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nickname --dev</title>
+    <link rel="icon" href="./logo.svg" type="image/svg+xml">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+    <aside class="fixed pointer-events-none inset-0 z-50 noise" aria-hidden="true">
+      <img src="./shum.png" class="w-full h-full object-cover opacity-[0.55]" alt="">
+    </aside>
+
+    <div class="root">
+      <!-- Шапка -->
+      <header id="home" class="relative top pt-[35px] mb-[95px]">
+        <nav class="flex relative max-w-[1300px] w-full h-[42px] px-6 mx-auto justify-between items-center z-50">
+            <!-- Навигация -->
+            <ul class="flex max-w-[320px] w-full gap-x-[40px] justify-start text-[16px] font-medium">
+                <li><a class="underline-offset-[10px] decoration-[#41E660] hover:underline active:underline focus:underline" href="#home">Home</a></li>
+                <li><a class="underline-offset-[10px] decoration-[#41E660] hover:underline active:underline focus:underline" href="#portfolio">Portfolio</a></li>
+                <li><a class="underline-offset-[10px] decoration-[#41E660] hover:underline active:underline focus:underline" href="#stack">Stack</a></li>
+                <li><a class="underline-offset-[10px] decoration-[#41E660] hover:underline active:underline focus:underline" href="#bio">Bio</a></li>
+            </ul>
+
+            <!-- Лого -->
+            <a href="#" class="w-[42px] h-[42px] select-none"><img src="logo.png" alt="logo"></a>
+
+            <!-- Контакты -->
+            <aside class="flex max-w-[320px] w-full gap-[40px] justify-end items-center">        
+              <a href="https://github.com/nickname" target="_blank" class="text-white hover:text-white/70 transition duration-100">GitHub</a>
+              <a href="https://t.me/nickname" target="_blank">
+                <button class="flex px-[14px] py-[8px] justify-center items-center gap-[10px] text-black bg-white rounded-[2px] tg-icon hover:bg-white/0 hover:text-white transition duration-100">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="cls-3 transition duration-100" d="M1.78953 9.84155C6.16233 7.93641 9.07825 6.68041 10.5372 6.07357C14.7028 4.34093 15.5684 4.03995 16.1326 4.03001C16.2567 4.02783 16.5342 4.05858 16.7138 4.20441C16.8656 4.32755 16.9073 4.49389 16.9273 4.61063C16.9473 4.72738 16.9722 4.99333 16.9524 5.20113C16.7267 7.57299 15.7499 13.3289 15.253 15.9854C15.0428 17.1095 14.6288 17.4863 14.2279 17.5232C13.3568 17.6034 12.6953 16.9475 11.8517 16.3945C10.5315 15.5291 9.78567 14.9904 8.50417 14.1459C7.02321 13.17 7.98326 12.6335 8.82725 11.757C9.04817 11.5275 12.8862 8.0366 12.9604 7.71992C12.9697 7.68031 12.9783 7.53268 12.8906 7.45472C12.8029 7.37676 12.6735 7.40342 12.5801 7.42463C12.4477 7.45468 10.3386 8.84863 6.25296 11.6066C5.65432 12.0176 5.11209 12.218 4.62628 12.2075C4.09069 12.1959 3.06046 11.9046 2.29458 11.6557C1.35521 11.3503 0.608612 11.1889 0.673624 10.6703C0.707486 10.4002 1.07945 10.124 1.78953 9.84155Z" fill="#04090F"></path>
+                  </svg>
+                  Contact
+                </button>
+              </a>
+            </aside>
+        </nav>
+
+        <!-- Фон -->
+        <div aria-disabled="true">
+          <div class="grad absolute max-w-[522px] w-full min-h-[522px] max-h-[522px] h-full -top-[375px] left-1/2 -translate-x-1/2 -z-[1] bg-gradient-to-r from-[#083270] via-[#088D70] to-[#5CA0DE] blur-[500px]"></div>
+        </div>
+      </header>
+
+      <main class="max-w-[1300px] w-full px-6 mx-auto">
+        <!-- Заголовок -->
+        <section class="flex flex-col max-w-[960px] w-full mx-auto pb-[40px] gap-[24px] gap-[28px] text-center">
+          <h1 class="text-[3.25rem] text-2xl text-3xl text-4xl text-[55px] leading-[4rem] font-bold -tracking-[1.1px]">We bring your web development vision to life</h1>
+          <p class="max-w-[675px] w-full mx-auto text-[1.2rem] text-[18px] text-[#8F9CAB] -tracking-[.32px]">We spend a lot of time improving our development skills and are ready to share them with you</p>
+        </section>
+
+        <!-- Декорация под заголовком -->
+        <svg class="w-8/12 mx-auto" width="1300" height="435" viewBox="0 0 1300 635" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_965_263)">
+          <path class="float-1 fill-[#41E66090] transition duration-200" d="M649.96 589.82C732.781 589.82 799.92 551.805 799.92 504.91C799.92 458.016 732.781 420 649.96 420C567.139 420 500 458.016 500 504.91C500 551.805 567.139 589.82 649.96 589.82Z"/>
+          <path class="float-2 fill-[#41E66090] transition duration-200" d="M649.96 401.22C788.009 401.22 899.92 372.069 899.92 336.11C899.92 300.151 788.009 271 649.96 271C511.911 271 400 300.151 400 336.11C400 372.069 511.911 401.22 649.96 401.22Z"/>
+          <path class="float-3 fill-[#41E66090] transition duration-200" d="M649.96 158C456.684 158 300 179.24 300 205.45C300 231.66 456.684 252.9 649.96 252.9C843.236 252.9 999.92 231.66 999.92 205.45C999.92 179.24 843.236 158 649.96 158Z"/>
+          <path class="float-4 fill-[#41E66090] transition duration-200" d="M649.96 92C401.456 92 200 102.62 200 115.72C200 128.82 401.456 139.44 649.96 139.44C898.464 139.44 1099.92 128.82 1099.92 115.72C1099.92 102.62 898.464 92 649.96 92Z"/>
+          <path class="float-5 fill-[#41E66090] transition duration-200" d="M100 61.86C100 68.41 346.228 73.72 649.96 73.72C953.692 73.72 1199.92 68.41 1199.92 61.86C1199.92 55.31 953.692 50 649.96 50C346.228 50 100 55.31 100 61.86Z"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_965_263">
+          <rect width="1299.92" height="634.36" fill="white"/>
+          </clipPath>
+          </defs>
+        </svg>
+
+        <!-- Портфолио -->
+        <section class="flex flex-col pt-[128px] gap-[60px]" id="portfolio">
+          <header class="flex flex-col justify-center items-center text-center gap-[12px]">
+            <h2 class="text-[32px] font-bold leading-none">Portfolio</h2>
+            <p class="max-w-[380px] w-full text-[#8F9CAB] leading-normal font-bold">My portfolio is expanding and improving, we provide all my possible works</p>
+          </header>
+
+          <!-- Портфолио: Мой сайт -->
+          <article id="my-website" class="flex flex-col gap-0">
+            <div class="transform opacity-100 translate-y-0 transition-opacity duration-100 ease-out animate-fadeIn">
+              <div class="py-[30px] group border-t border-[#2D4057]">
+                <div class="flex flex-row justify-between gap-4 cursor-pointer text-left">
+                  <div class="flex flex-row justify-start gap-x-[40px] gap-y-[40px]">
+                    <div class="relative">
+                      <img src="./portfolio/my-website.png" alt="work preview" class="select-none w-[390px] border border-[#41E660] rounded-[2px] h-[190px] mx-auto 1mx-0">
+                      <div class="absolute -z-[1] w-[390px] h-[190px] top-0 left-1/2 -translate-x-1/2 1translate-x-0 1left-0 bg-[#41E660]" aria-hidden="true">
+                        <div class="relative w-full h-full">
+                          <div class="absolute -z-[1] w-[390px] h-[190px] top-0 left-0 bg-[#41E660] group-hover:top-[10px] group-hover:left-[10px] transition-all duration-[150ms]"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex flex-col h-full justify-between">
+                      <p class="max-w-[520px] w-full mx-auto mx-0 text-[#F2F4F6] font-bold text-[28px] leading-tight">
+                        My personal website
+                      </p>
+                      <span class="font-bold text-[#8F9CAB] uppercase mt-0">DEC 12 2024</span>
+                    </div>
+                  </div>
+                  <!-- Read More -->
+                  <div class="flex justify-end">
+                    <button class="flex h-fit mx-auto mx-0 justify-end items-center gap-[4px] mt-0 text-right uppercase text-white group-hover:text-[#41E660]">
+                      Read More
+                      <svg class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-[150ms]" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.0028 7.06066L5.54784 13.5156L4.48718 12.455L10.9421 6H5.2528V4.5H13.5028V12.75H12.0028V7.06066Z" fill="#FFFFFF"></path></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <button class="mx-auto mt-12 text-[20px] text-white uppercase hover:text-[#41E660]">Show all works</button>
+        </section>
+        
+        <!-- Стек -->
+        <section class="flex flex-col pt-[128px] pb-[64px] gap-[60px]" id="stack">
+          <header class="flex flex-col justify-center items-center text-center gap-[12px]">
+            <h2 class="text-[32px] font-bold leading-none">Stack</h2>
+            <p class="max-w-[380px] w-full leading-normal text-[#8F9CAB] font-bold">My portfolio is expanding and improving, we provide all my possible works</p>
+          </header>
+
+          <div class="flex max-w-[1120px] w-full mx-auto gap-2 justify-center flex-wrap">
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">Nuxt</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">Vue.js</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">React</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">Next.js</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">Php</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">Laravel</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">TailwindCSS</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">shadcn/ui</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">JavaScript</p>
+            </div>
+            <div class="p-[10px] text-[44px] border border-[#41E660] text-white bg-[#41E660]/0 hover:text-[#04090F] hover:bg-[#41E660] transition duration-200">
+              <p class="leading-[1.875rem] -tracking-[0.88px] cursor-default select-none">TypeScript</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Декорация под Стеком -->
+        <div class="flex flex-col gap-0">
+          <svg class="max-w-[500px] w-[80%] mx-auto float-1" width="503" height="92" viewBox="0 0 503 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M502 46C502 48.7774 500.465 51.6284 497.224 54.525C493.987 57.4184 489.155 60.2561 482.839 62.9874C470.214 68.4468 451.884 73.3865 429.157 77.5432C383.72 85.8538 320.909 91 251.5 91C182.092 91 119.28 85.8538 73.8426 77.5432C51.1159 73.3865 32.7858 68.4468 20.161 62.9874C13.8449 60.2561 9.01306 57.4184 5.776 54.525C2.5353 51.6284 1 48.7774 1 46C1 43.2226 2.5353 40.3716 5.776 37.475C9.01306 34.5816 13.8449 31.7439 20.161 29.0126C32.7858 23.5532 51.1159 18.6135 73.8426 14.4568C119.28 6.14622 182.092 1 251.5 1C320.909 1 383.72 6.14622 429.157 14.4568C451.884 18.6135 470.214 23.5532 482.839 29.0126C489.155 31.7439 493.987 34.5816 497.224 37.475C500.465 40.3716 502 43.2226 502 46Z" stroke="#41E660" stroke-width="2"></path>
+          </svg>
+          <svg class="max-w-[440px] w-[70%] mx-auto -mt-12 float-2" width="441" height="92" viewBox="0 0 441 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M440 46C440 48.8275 438.631 51.6905 435.806 54.5704C432.978 57.4536 428.756 60.2828 423.23 63.0084C412.181 68.4577 396.13 73.393 376.213 77.548C336.395 85.8546 281.342 91 220.5 91C159.658 91 104.605 85.8546 64.7872 77.548C44.8702 73.393 28.8185 68.4577 17.7703 63.0084C12.2443 60.2828 8.02177 57.4536 5.19367 54.5704C2.36888 51.6905 1 48.8275 1 46C1 43.1725 2.36888 40.3095 5.19367 37.4296C8.02177 34.5464 12.2443 31.7172 17.7703 28.9916C28.8185 23.5423 44.8702 18.607 64.7872 14.452C104.605 6.14543 159.658 1 220.5 1C281.342 1 336.395 6.14543 376.213 14.452C396.13 18.607 412.181 23.5423 423.23 28.9916C428.756 31.7172 432.978 34.5464 435.806 37.4296C438.631 40.3095 440 43.1725 440 46Z" stroke="#41E66075" stroke-width="2"></path>
+          </svg>
+          <svg class="max-w-[340px] w-[60%] mx-auto -mt-12 float-3" width="347" height="92" viewBox="0 0 347 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M346 46C346 51.8081 341.544 57.5982 332.834 63.058C324.176 68.4855 311.58 73.4101 295.927 77.5603C264.635 85.8568 221.35 91 173.5 91C125.65 91 82.3653 85.8568 51.0732 77.5603C35.4199 73.4101 22.8242 68.4855 14.1656 63.058C5.45557 57.5982 1 51.8081 1 46C1 40.1919 5.45557 34.4018 14.1656 28.942C22.8242 23.5145 35.4199 18.5899 51.0732 14.4397C82.3653 6.14325 125.65 1 173.5 1C221.35 1 264.635 6.14325 295.927 14.4397C311.58 18.5899 324.176 23.5145 332.834 28.942C341.544 34.4018 346 40.1919 346 46Z" stroke="#41E66050" stroke-width="2"></path>
+          </svg>
+        </div>
+
+        <!-- Био -->
+        <section class="flex flex-col gap-[60px] pt-[128px] pb-[32px]" id="bio">
+          <header class="flex flex-col justify-center items-center text-center gap-[12px]">
+            <h2 class="text-[32px] font-bold leading-none">Bio</h2>
+            <p class="leading-normal max-w-[380px] w-full text-[#8F9CAB] font-bold">Some information about me, what I do and where I work</p>
+          </header>
+
+          <div class="w-full border border-[#2D4057] flex flex-row">
+            <div class="flex flex-col h-full p-[20px] border-r border-[#2D4057]">
+              <p class="font-medium text-[21px] leading-[normal]">
+                I’m a 16-year-old full-stack web developer with experience in React, Next.js, Vue, Nuxt.js, JS/TS, TailwindCSS, PHP, Laravel.<br>
+                I’m passionate about creating dynamic and user-friendly websites and applications.<br><br>
+                I currently work at BenzoCloud, a hosting services company, where I contribute to the development of robust and scalable solutions.
+              </p>
+
+              <div class="mt-[32px] mb-[20px] bg-[#2D4057] w-full h-[1px]"></div>
+
+              <div class="flex flex-row w-full justify-between items-center">
+                <div class="flex justify-center items-center gap-[10px] text-left">
+                  <img src="./logo.png" class="select-none w-[40px] h-[40px] border border-[#2D4057] rounded-full">
+                  <div class="flex flex-col">
+                    <p class="text-[16px] font-semibold leading-[normal]">nickname</p>
+                    <p class="text-[12px] font-semibold leading-[normal] text-[#8F9CAB] uppercase">Web Developer</p>
+                  </div>
+                </div>
+
+                <div class="flex justify-between items-center gap-[8px]">
+                  <div id="first" class="flex justify-center items-center w-[40px] h-[40px] border border-[#2D4057] transition duration-200">
+                    <div id="first-dot" class="w-[12px] h-[12px] bg-[#40E660] rounded-full transition duration-200"></div>
+                  </div>
+                  <div id="second" class="flex justify-center items-center w-[40px] h-[40px] border border-[#2D4057] transition duration-200">
+                    <div id="second-dot" class="w-[12px] h-[12px] bg-[#40E660] rounded-full transition duration-200"></div>
+                  </div>
+                  <div id="third" class="flex justify-center items-center w-[40px] h-[40px] border border-[#2D4057] transition duration-200">
+                    <div id="third-dot" class="w-[12px] h-[12px] bg-[#40E660] rounded-full transition duration-200"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="flex flex-col w-1/4">
+              <div class="flex h-1/2 justify-center items-center border-b border-[#2D4057]">
+                <svg class="w-1/2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1132.98 1209.62">
+                  <defs>
+                    <style>.cls-1{fill:#40E660;}</style>
+                  </defs>
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <path class="cls-1" d="m814.31,615.52h318.67L777.61,0l-175.41,303.82c-76.25-61.11-162.19-102.41-247.95-117.56-53.38-9.44-103.93-8.43-150.25,2.98-49.24,12.13-91.39,35.47-125.27,69.35-33.88,33.88-57.21,76.03-69.35,125.27-11.41,46.32-12.42,96.86-2.98,150.25,8.98,50.83,27.29,101.72,53.21,150.68v524.84h548.88v-205.96c5.75-1.08,11.46-2.25,17.06-3.63,49.24-12.14,91.39-35.47,125.27-69.35,33.88-33.88,57.21-76.03,69.35-125.27,11.41-46.31,12.42-96.86,2.98-150.25-2.34-13.22-5.31-26.45-8.85-39.65ZM126.54,785.24c14.39,17.73,29.51,35.1,46.02,51.61,88.25,88.25,195.76,147.26,302.74,166.17,22.54,3.98,44.76,5.95,66.26,6.2v133.48H126.54v-357.45Zm360.41,151.87c-93.58-16.54-188.43-68.95-267.06-147.59-19.68-19.68-37.69-40.4-53.95-61.85h375.62v214.62c-17.65-.26-35.95-1.89-54.61-5.18ZM122.42,660.74c-24.23-43.99-41.24-89.71-49.69-135.15-16.82-90.46,2.12-168.47,53.33-219.68,38.76-38.76,93.32-59.24,157.8-59.24,93.19,0,196.46,42.56,284.58,115.63l-146.19,253.22h322.14c5.05,16.04,9.46,32.11,12.44,48.16,16.82,90.46-2.12,168.48-53.32,219.68-25.41,25.41-57.71,42.78-95.01,51.83v-274.45H122.42Zm496.17-251.45c41.07,42.86,74.47,90.15,98.78,139.3h-179.2l80.42-139.3Zm38.4-56.87c-1.17-1.17-2.43-2.21-3.62-3.38l124.24-215.19,239.45,414.73h-226.24c-29.63-70.01-75.05-137.39-133.83-196.17Z"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="bio-icon flex h-1/2 justify-center items-center transition duration-200">
+                <svg class="w-1/2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1121.64 961.8">
+                  <defs>
+                    <style>.cls-2{fill: #40E660;}</style>
+                  </defs>
+                  <g id="Layer_1-2" data-name="Layer 1">
+                    <g>
+                      <path class="cls-2 transition duration-200" d="m1114,651.98c-7.52-21.73-20.7-47.18-38.13-73.61l-206.88-313.75-86.66,57.14,153.53,232.85L301.73,94.79l48.52-66.92L82.61,0l109.66,245.74,48.52-66.92,768.96,557.58c20,14.5,37.29,19.33,51.43,19.33,21.58,0,35.85-11.23,41.27-16.42,9.44-9.03,20.41-25.38,19.07-52.01-.54-10.68-3-22.23-7.53-35.32Z"/>
+                      <path class="cls-1" d="m820.79,785.25L108.21,283.93c-48.09-33.83-80.33-9.1-89.07-.71-20.81,19.97-24.68,49.96-11.5,89.14,7.74,23.01,21.19,49.73,38.92,77.26l204.34,317.37,87.28-56.19-162.62-252.57,585.51,411.92-47.56,67.6,268.01,24.05-113.16-244.15-47.56,67.6Z"/>
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Футер -->
+      <footer class="max-w-[1300px] w-full mx-auto px-6 mt-[100px]">
+        <footer class="w-full flex flex-row gap-y-3 justify-between items-center h-[82px] border-t border-[#2D4057] text-center text-left">
+          <p class="text-[#8F9CAB] font-medium leading-[normal] text-[16px] mt-8 mb-8">© 2024 nickname</p>
+          <p class="text-[#8F9CAB] font-thin leading-[normal] text-[16px] mt-8 mb-8">Inspired by<a href="https://n3xus.site" target="_blank" class="underline underline-offset-4 ml-2.5">n3xus ♡</a></p>
+        </footer>
+      </footer>
+    </div>
+
+    <!-- Диалоговое окно -->
+    <div id="my-website-dialog" class="fixed hidden left-[50%] top-[50%] z-100 w-full max-w-[1100px] translate-x-[-50%] translate-y-[-50%] border border-[#132335] bg-[#08111B] dialog hide">
+      <div class="p-[20px] text-left">
+        <div class="flex flex-col gap-[12px]">
+          <h2 class="text-[32px] font-bold leading-none">My website</h2>
+          <span class="font-bold text-[#8F9CAB] uppercase mt-0 pb-[30px]">DEC 12 2024</span>
+          <p class="leading-normal w-full text-[#CAD3DE] font-bold pb-[30px]">My portfolio is constantly being updated with both pet projects and real tasks</p>
+          <img src="./portfolio/my-website-up.png" alt="work preview" class="select-none w-[810px] h-[400px] border border-[#41E660] rounded-[2px] mx-auto 1mx-0 mb-[30px]">
+        </div>
+      </div>
+      <button id="close-my-website-dialog" class="absolute flex right-4 top-4 w-[24px] h-[24px] justify-center items-center close-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="16px" height="16px">
+          <path class="cls-4 transition-all duration-[150ms]" fill="#354A61" d="M 7 4 C 6.744125 4 6.4879687 4.0974687 6.2929688 4.2929688 L 4.2929688 6.2929688 C 3.9019687 6.6839688 3.9019687 7.3170313 4.2929688 7.7070312 L 11.585938 15 L 4.2929688 22.292969 C 3.9019687 22.683969 3.9019687 23.317031 4.2929688 23.707031 L 6.2929688 25.707031 C 6.6839688 26.098031 7.3170313 26.098031 7.7070312 25.707031 L 15 18.414062 L 22.292969 25.707031 C 22.682969 26.098031 23.317031 26.098031 23.707031 25.707031 L 25.707031 23.707031 C 26.098031 23.316031 26.098031 22.682969 25.707031 22.292969 L 18.414062 15 L 25.707031 7.7070312 C 26.098031 7.3170312 26.098031 6.6829688 25.707031 6.2929688 L 23.707031 4.2929688 C 23.316031 3.9019687 22.682969 3.9019687 22.292969 4.2929688 L 15 11.585938 L 7.7070312 4.2929688 C 7.5115312 4.0974687 7.255875 4 7 4 z"/>
+        </svg>
+      </button>
+    </div>
+  </body>
+</html>

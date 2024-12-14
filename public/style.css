@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Базовые стили */
+body {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  background-color: rgb(9 9 19 / var(--tw-bg-opacity));
+  color: rgb(242 244 246 / var(--tw-text-opacity));
+  font-family: JetBrains Mono, monospace;
+  overflow-x: hidden;
+}
+
+/* Стили для выделения текста */
+*::selection {
+  background-color: #41e660;
+  color: #090913;
+}
+
+/* Стили для анимации плавающих элементов */
+.float-1 { animation: float 3s ease-in-out infinite; }
+.float-2 { animation: float 3.1s ease-in-out infinite; }
+.float-3 { animation: float 3.2s ease-in-out infinite; }
+.float-4 { animation: float 3.3s ease-in-out infinite; }
+.float-5 { animation: float 3.4s ease-in-out infinite; }
+
+/* Стили для окрашивания иконок при наведении */
+.bio-icon:hover {
+  background-color: #40e660;
+  .cls-2 {
+    fill: #090913;
+  }
+}
+.tg-icon:hover {
+  background-color: #fff;
+  .cls-3 {
+    fill: #ffffff;
+  }
+}
+.close-button:hover {
+  .cls-4 {
+    fill: #cad3de;
+  }
+}
+/* Стили для скроллбара */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #40e66025;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #40e660;
+}
+
+/* Стили для диалогового окна */
+.dialog {
+  opacity: 0;
+  z-index: 100;
+}
+.dialog.show {
+  animation: fadeIn 0.2s forwards;
+  pointer-events: all;
+}
+.dialog.hide {
+  animation: fadeOut 0.2s forwards;
+}
+.dialog-mute-all {
+  div:not(.dialog) {
+    pointer-events: none;
+  }
+}
+
+/* Стили для градиента */
+.grad {
+  animation: rotate 90s linear infinite;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
